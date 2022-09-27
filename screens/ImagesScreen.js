@@ -25,8 +25,7 @@ const ImagesScreen = () => {
 
   // console.log("EHEHEHE : ", Constants.manifest.extra.token);
   return (
-    <ScrollView>
-      <Text>ImagesScreen</Text>
+    <>
       {pictures.length > 0 && (
         <FlatList
           data={pictures}
@@ -71,7 +70,7 @@ const ImagesScreen = () => {
           }}
         />
       )}
-    </ScrollView>
+    </>
   );
 };
 
