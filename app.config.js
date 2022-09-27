@@ -2,11 +2,12 @@ import "dotenv/config";
 
 export default {
   expo: {
-    name: "wildstagram2022",
-    slug: "wildstagram2022",
+    name: "wildstagram",
+    slug: "wildstagram",
     version: "1.0.0",
     orientation: "portrait",
     icon: "./assets/icon.png",
+    userInterfaceStyle: "light",
     splash: {
       image: "./assets/splash.png",
       resizeMode: "contain",
@@ -27,9 +28,6 @@ export default {
     },
     web: {
       favicon: "./assets/favicon.png",
-    },
-    extra: {
-      token: process.env.token,
     },
   },
 };

@@ -23,7 +23,7 @@ const ImagesScreen = () => {
     })();
   }, []);
 
-  console.log("EHEHEHE : ", Constants.manifest.extra.token);
+  // console.log("EHEHEHE : ", Constants.manifest.extra.token);
   return (
     <ScrollView>
       <Text>ImagesScreen</Text>
